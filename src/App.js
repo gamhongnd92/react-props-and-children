@@ -6,6 +6,8 @@ import Pears from "./components/Pears";
 import Card from "./components/Card";
 import Btn from "./components/Btn";
 import ModeToggler from "./components/ModeToggler";
+import DynamicEventLab from "./components/DynamicEventLab";
+import Dog from "./components/Dog";
 
 const bool = false;
 const str1 = "just";
@@ -57,6 +59,11 @@ function App() {
       <p>Click to button </p>
 
       <ModeToggler />
+
+      <DynamicEventLab />
+
+      <Dog />
+      <p></p>
     </div>
   );
 }
